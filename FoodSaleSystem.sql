@@ -1,5 +1,4 @@
 SET FOREIGN_KEY_CHECKS=0;
-
 -- ----------------------------
 -- Table structure for category
 -- ----------------------------
@@ -33,7 +32,6 @@ CREATE TABLE `users` (
 -- Records of users
 -- ----------------------------
 
-SET FOREIGN_KEY_CHECKS=1;
 -- ----------------------------
 -- Table structure for food
 -- ----------------------------
@@ -110,7 +108,7 @@ CREATE TABLE `users` (
 -- ----------------------------
 -- Records of users
 -- ----------------------------
-SET FOREIGN_KEY_CHECKS=1;
+
 -- ----------------------------
 -- Table structure for address
 -- ----------------------------
@@ -127,4 +125,3 @@ CREATE TABLE `address` (
 -- ----------------------------
 -- Records of address
 -- ----------------------------
-SET FOREIGN_KEY_CHECKS=1;
