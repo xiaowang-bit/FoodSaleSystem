@@ -4,7 +4,7 @@ SET FOREIGN_KEY_CHECKS=0;
 -- ----------------------------
 DROP TABLE IF EXISTS `category`;
 CREATE TABLE `category` (
-  `id` INT(10) PRIMARY KEY,
+  `id` INT(10) PRIMARY KEY AUTO_INCREMENT,
   `name` VARCHAR(100) NOT NULL,
   `description` VARCHAR(255) DEFAULT NULL,
   UNIQUE KEY `name` (`name`)
@@ -19,7 +19,7 @@ CREATE TABLE `category` (
 DROP TABLE IF EXISTS `users`;
 CREATE TABLE `users` (
   `id` VARCHAR(100) NOT NULL,
-  `username` VARCHAR(100) NOT NULL,
+  `name` VARCHAR(100) NOT NULL,
   `password` VARCHAR(100)  NOT NULL,
   `cellphone` VARCHAR(20) DEFAULT NULL,
   `email` VARCHAR(100) NOT NULL,
@@ -37,8 +37,8 @@ CREATE TABLE `users` (
 -- ----------------------------
 DROP TABLE IF EXISTS `food`;
 CREATE TABLE `food` (
-  `id` VARCHAR(100),
-  `foodname` VARCHAR(100) NOT NULL,
+  `id` INT (10),
+  `name` VARCHAR(100) NOT NULL,
   `price` FLOAT(8,2) DEFAULT 0,
   `imagepath` VARCHAR(300) DEFAULT NULL,
   `description` VARCHAR(255) DEFAULT NULL,
@@ -79,7 +79,7 @@ CREATE TABLE `orderitem` (
   `num` INT(11) DEFAULT NULL,
   `price` FLOAT(8,2) DEFAULT NULL,
   `orderInfo_id` VARCHAR(100) DEFAULT NULL,
-  `food_id` VARCHAR(100) DEFAULT NULL,
+  `food_id` INT(10) AUTO_INCREMENTfood_id,
   PRIMARY KEY (`id`),
   KEY `food_id_fk` (`food_id`),
   KEY `orderInfo_id_fk` (`orderInfo_id`),
@@ -90,33 +90,15 @@ CREATE TABLE `orderitem` (
 -- ----------------------------
 -- Records of orderitem
 -- ----------------------------
--- ----------------------------
--- Table structure for users
--- ----------------------------
-DROP TABLE IF EXISTS `users`;
-CREATE TABLE `users` (
-  `id` VARCHAR(100) NOT NULL,
-  `username` VARCHAR(100) NOT NULL,
-  `password` VARCHAR(100) DEFAULT NULL,
-  `cellphone` VARCHAR(20) DEFAULT NULL,
-  `email` VARCHAR(100) NOT NULL,
-  PRIMARY KEY (`id`),
-  UNIQUE KEY `username` (`username`),
-  UNIQUE KEY `email` (`email`)
-) ENGINE=INNODB DEFAULT CHARSET=utf8;
-
--- ----------------------------
--- Records of users
--- ----------------------------
 
 -- ----------------------------
 -- Table structure for address
 -- ----------------------------
 DROP TABLE IF EXISTS `address`;
 CREATE TABLE `address` (
-  `id` VARCHAR(100) NOT NULL,
+  `id` INT(10) AUTO_INCREMENT,
   `address` VARCHAR(100) NOT NULL,
-  `user_id` VARCHAR(100) DEFAULT NULL,
+  `user_id` VARCHAR(100) NOT NULL,
   PRIMARY KEY (`id`),
   KEY `u_id_fk` (`user_id`),
   CONSTRAINT `u_id_fk` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE
