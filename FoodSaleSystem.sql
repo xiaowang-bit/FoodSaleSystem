@@ -24,7 +24,7 @@ CREATE TABLE `users` (
   `cellphone` VARCHAR(20) DEFAULT NULL,
   `email` VARCHAR(100) NOT NULL,
   PRIMARY KEY (`id`),
-  UNIQUE KEY `username` (`username`),
+  UNIQUE KEY `name` (`name`),
   UNIQUE KEY `email` (`email`)
 ) ENGINE=INNODB DEFAULT CHARSET=utf8;
 
@@ -37,15 +37,15 @@ CREATE TABLE `users` (
 -- ----------------------------
 DROP TABLE IF EXISTS `food`;
 CREATE TABLE `food` (
-  `id` INT (10),
+  `id` INT (10) AUTO_INCREMENT,
   `name` VARCHAR(100) NOT NULL,
-  `price` FLOAT(8,2) DEFAULT 0,
-  `imagepath` VARCHAR(300) DEFAULT NULL,
+  `price` FLOAT(8,2) DEFAULT NULL,
+  `imagepath` VARCHAR(300) NOT NULL,
   `description` VARCHAR(255) DEFAULT NULL,
-  `category_id` INT(10) DEFAULT 0,
+  `category_id` INT(10)NOT NULL,
   PRIMARY KEY (`id`),
-  INDEX (`category_id`), 
-  CONSTRAINT `category_id_fk` FOREIGN KEY (`category_id`) REFERENCES `category` (`id`)ON DELETE CASCADE ON UPDATE CASCADE
+  KEY `category_id_fk` (`category_id`),
+  CONSTRAINT `catgory_id_fk` FOREIGN KEY (`category_id`) REFERENCES `category` (`id`)ON DELETE CASCADE ON UPDATE CASCADE
 ) ENGINE=INNODB DEFAULT CHARSET=utf8;
 
 -- ----------------------------
@@ -79,7 +79,7 @@ CREATE TABLE `orderitem` (
   `num` INT(11) DEFAULT NULL,
   `price` FLOAT(8,2) DEFAULT NULL,
   `orderInfo_id` VARCHAR(100) DEFAULT NULL,
-  `food_id` INT(10) AUTO_INCREMENTfood_id,
+  `food_id` INT(10) ,
   PRIMARY KEY (`id`),
   KEY `food_id_fk` (`food_id`),
   KEY `orderInfo_id_fk` (`orderInfo_id`),
