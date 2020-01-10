@@ -1,11 +1,11 @@
-package com.hubu.controller;
+package com.hubu.service;
 
+import com.github.pagehelper.PageInfo;
 import com.hubu.Enum.ResponseEnum;
 import com.hubu.model.*;
 import com.hubu.service.OrderService;
-
-import com.hubu.utils.Response;
-import com.hubu.utils.UuidUtil;
+import com.hubu.util.Response;
+import com.hubu.util.UuidUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -95,14 +95,13 @@ public class OrderController {
      * 我的订单
      *
      * @param request
-     * @param response
      * @return
      * @throws ServletException
      * @throws IOException
      */
     @RequestMapping("/findOrder")
     @ResponseBody
-    public Response myOrders(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+    public Response myOrders(int page,HttpServletRequest request) throws ServletException, IOException {
         /*
          * 1.从session中得到当前用户.
          * 2.使用当前用户uid调用orderService#myOrders(uid),
@@ -114,7 +113,7 @@ public class OrderController {
         User user = (User) request.getSession().getAttribute("user");
 
         //得到该用户的所有订单List<Order>
-        List<OrderInfo> orderList = orderService.queryOrderById(user.getId());
+        PageInfo<OrderInfo> orderList = orderService.queryOrderById(page,5,user.getId());
 
         return Response.response(ResponseEnum.Success).add("list", orderList);
     }
@@ -164,5 +163,6 @@ public class OrderController {
             Response.response(ResponseEnum.Fail).add("msg", e.getMessage());
         }
         return Response.response(ResponseEnum.Success).add("data", null);
+
     }
 }

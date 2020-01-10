@@ -6,7 +6,7 @@ import com.hubu.model.Cart;
 import com.hubu.model.CartItem;
 import com.hubu.model.Food;
 import com.hubu.service.FoodService;
-import com.hubu.util.Response;
+import com.hubu.utils.Response;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

@@ -1,6 +1,9 @@
 package com.hubu.service.Impl;
 
+import com.github.pagehelper.PageHelper;
+import com.github.pagehelper.PageInfo;
 import com.hubu.mapper.OrderMapper;
+import com.hubu.model.Food;
 import com.hubu.model.OrderInfo;
 import com.hubu.service.OrderService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,8 +22,11 @@ public class OderServiceImpl implements OrderService {
     }
 
     @Override
-    public List<OrderInfo> queryOrderById(String id) {
-        return om.queryOrderById(id);
+    public PageInfo<OrderInfo> queryOrderById(int page,int size,String id) {
+        PageHelper.startPage(page,size);
+        List<OrderInfo> list=om.queryOrderById(id);
+        PageInfo<OrderInfo> pageinf= new PageInfo<>(list);
+        return pageinf;
     }
 
     @Override
