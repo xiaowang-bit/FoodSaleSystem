@@ -1,5 +1,6 @@
 package com.hubu.service;
 
+import com.hubu.model.ResultMsg;
 import com.hubu.model.User;
 
 import java.util.List;
@@ -7,5 +8,5 @@ import java.util.List;
 
 public interface UserService {
     public List<User> queryUser();
-    public User Login(String name,String pwd);
+    public ResultMsg Login(String name, String pwd);
 }
