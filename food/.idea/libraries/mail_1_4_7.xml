@@ -1,7 +1,7 @@
 <component name="libraryTable">
-  <library name="jedis-2.7.0">
+  <library name="mail-1.4.7">
     <CLASSES>
-      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/jedis-2.7.0.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/mail-1.4.7.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

@@ -7,91 +7,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5114e06c-9fe4-4171-99ce-584e9abee7de" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/.idea/artifacts/FoodSaleSystem_war_exploded.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/.idea/libraries/lib.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/FoodSaleSystem.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/out/production/FoodSaleSystem/com/hubu/mapper/queryUsers.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/out/production/FoodSaleSystem/druid.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/out/production/FoodSaleSystem/springmvc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/resources/com/hubu/mapper/queryUsers.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/resources/druid.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/resources/springmvc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/src/com/hubu/mapper/queryUsers.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/src/com/hubu/model/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/src/com/hubu/service/Impl/IUserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/src/com/hubu/utils/JDBCUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/src/com/hubu/utils/JedisUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/src/com/hubu/utils/MailUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/src/com/hubu/utils/Md5Util.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/src/com/hubu/utils/UuidUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/contact.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/css/animate.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/images/12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/images/banner.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/images/cross.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/images/cuisine1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/images/cuisine2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/images/cuisine3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/images/cuisine4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/images/cuisine5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/images/cuisine6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/images/cuisine7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/images/cuisine8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/images/dotted-line-right-wide.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/images/dotted-line-right.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/images/dotted-line.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/images/icon1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/images/icon2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/images/icon3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/images/img-sprite.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/images/line.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/images/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/images/lunch.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/images/order-section-bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/images/order.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/images/p1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/images/p2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/images/p3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/images/restaurent-1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/images/restaurent-2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/images/restaurent-3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/images/restaurent-4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/images/restaurent-5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/images/restaurent-6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/images/restaurent-logo1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/images/restaurent-logo2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/images/restaurent-logo3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/images/restaurent-logo4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/images/restaurent-logo5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/images/restaurent-logo6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/images/service-banner.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/images/star1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/images/star2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/images/tick1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/images/to-top2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/index.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/js/classie.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/js/easing.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/js/jquery.carouFredSel-6.1.0-packed.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/js/jquery.easydropdown.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/js/jquery.flexisel.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/js/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/js/move-top.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/js/tms-0.4.1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/js/uisearch.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/js/wow.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/order.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/popular-Restaurents.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/food_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/food_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/jedis_2_7_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_8_0_17.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/spring_test_5_0_8_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food.iml" beforeDir="false" afterPath="$PROJECT_DIR$/food.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/food_war_exploded/WEB-INF/classes/META-INF/food.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/food/META-INF/food.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hubu/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hubu/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hubu/service/Impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hubu/service/Impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hubu/utils/MailUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hubu/utils/MailUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/hubu/utils/Md5Util.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/hubu/utils/Md5Util.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -117,13 +46,16 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="food" />
+  </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resourses/com/hubu/mapper/UserDao.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+            <state relative-caret-position="-140">
+              <caret column="38" selection-start-column="38" selection-end-column="38" />
             </state>
           </provider>
         </entry>
@@ -131,17 +63,23 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/hubu/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="307">
+              <caret line="92" column="47" selection-start-line="92" selection-start-column="47" selection-end-line="92" selection-end-column="47" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/hubu/mapper/UserMapper.java">
+        <entry file="file://$PROJECT_DIR$/src/com/hubu/utils/MailUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="193">
-              <caret line="12" column="45" lean-forward="true" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+            <state relative-caret-position="1422">
+              <caret line="70" selection-start-line="70" selection-end-line="70" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -149,21 +87,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/hubu/service/Impl/UserServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="111">
-              <caret line="29" column="73" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="73" />
-              <folding>
-                <element signature="e#1013#1014#0" expanded="true" />
-                <element signature="e#1051#1052#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/hubu/Enum/ResponseEnum.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+            <state relative-caret-position="223">
+              <caret line="46" column="13" lean-forward="true" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -171,8 +96,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/hubu/service/UserService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+            <state relative-caret-position="218">
+              <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -218,8 +143,10 @@
         <option value="$PROJECT_DIR$/test/java/a.java" />
         <option value="$PROJECT_DIR$/src/com/hubu/utils/random.java" />
         <option value="$PROJECT_DIR$/src/com/hubu/service/UserService.java" />
-        <option value="$PROJECT_DIR$/src/com/hubu/service/Impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/com/hubu/utils/Md5Util.java" />
+        <option value="$PROJECT_DIR$/src/com/hubu/utils/MailUtils.java" />
         <option value="$PROJECT_DIR$/src/com/hubu/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/com/hubu/service/Impl/UserServiceImpl.java" />
       </list>
     </option>
   </component>
@@ -231,10 +158,10 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-12" />
-    <option name="y" value="-12" />
-    <option name="width" value="981" />
-    <option name="height" value="1054" />
+    <option name="x" value="-14" />
+    <option name="y" value="-14" />
+    <option name="width" value="984" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectId" id="1W9TgrhjhhHAKpMaYWrZYJYrZDT" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -243,8 +170,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -271,72 +196,24 @@
             <path>
               <item name="food" type="b2602c69:ProjectViewProjectNode" />
               <item name="food" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="hubu" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="food" type="b2602c69:ProjectViewProjectNode" />
-              <item name="food" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="hubu" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="food" type="b2602c69:ProjectViewProjectNode" />
-              <item name="food" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="hubu" type="462c0819:PsiDirectoryNode" />
-              <item name="Enum" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="food" type="b2602c69:ProjectViewProjectNode" />
-              <item name="food" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="hubu" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="food" type="b2602c69:ProjectViewProjectNode" />
-              <item name="food" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="hubu" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="food" type="b2602c69:ProjectViewProjectNode" />
-              <item name="food" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="hubu" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="Impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="food" type="b2602c69:ProjectViewProjectNode" />
-              <item name="food" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="hubu" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="food" type="b2602c69:ProjectViewProjectNode" />
-              <item name="food" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="food" type="b2602c69:ProjectViewProjectNode" />
-              <item name="food" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="food" type="b2602c69:ProjectViewProjectNode" />
               <item name="food" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="food" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="ProjectViewState">
@@ -350,9 +227,10 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/com/hubu/utils" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/WEB-INF/lib" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -360,14 +238,15 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.1484375" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\idea2019exe\ideaProject\HomeworkDesign\code\gitProject\FoodSaleSystem\food\web\WEB-INF\lib" />
       <recent name="F:\idea2019exe\ideaProject\HomeworkDesign\code\gitProject\FoodSaleSystem\food\src\com\hubu\model" />
       <recent name="C:\Users\Administrator\Desktop\food\resourses\com\hubu" />
     </key>
@@ -378,11 +257,11 @@
       <recent name="com.hubu.model" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\idea2019exe\ideaProject\HomeworkDesign\code\gitProject\FoodSaleSystem\food\web\WEB-INF\lib" />
       <recent name="F:\idea2019exe\ideaProject\HomeworkDesign\code\gitProject\FoodSaleSystem\food\src\com\hubu\utils" />
       <recent name="F:\idea2019exe\ideaProject\HomeworkDesign\code\gitProject\food\web\WEB-INF\lib" />
       <recent name="F:\idea2019exe\ideaProject\HomeworkDesign\code\gitProject\food\src\com\hubu\utils" />
       <recent name="F:\idea2019exe\ideaProject\HomeworkDesign\code\gitProject\food\web" />
-      <recent name="C:\Users\Administrator\Desktop\food\web\WEB-INF\lib" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -398,6 +277,32 @@
     </option>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.45">
+    <configuration name="MailUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hubu.utils.MailUtils" />
+      <module name="food" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hubu.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Md5Util" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hubu.utils.Md5Util" />
+      <module name="food" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hubu.utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UserController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.hubu.controller.UserController" />
       <module name="food" />
@@ -407,13 +312,6 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="a" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="a" />
-      <module name="food" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -509,18 +407,20 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.a" />
       <item itemvalue="Application.UserController" />
+      <item itemvalue="Application.Md5Util" />
+      <item itemvalue="Application.MailUtils" />
       <item itemvalue="JUnit.a.b" />
-      <item itemvalue="Tomcat Server.Tomcat 8.5.45" />
       <item itemvalue="JUnit.a" />
+      <item itemvalue="Tomcat Server.Tomcat 8.5.45" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MailUtils" />
+        <item itemvalue="Application.Md5Util" />
         <item itemvalue="JUnit.a.b" />
         <item itemvalue="JUnit.a" />
         <item itemvalue="Application.UserController" />
-        <item itemvalue="Application.a" />
       </list>
     </recent_temporary>
   </component>
@@ -563,7 +463,9 @@
       <workItem from="1578566452931" duration="196000" />
       <workItem from="1578567086906" duration="14074000" />
       <workItem from="1578619348249" duration="1984000" />
-      <workItem from="1578621634473" duration="11797000" />
+      <workItem from="1578621634473" duration="17672000" />
+      <workItem from="1578641765141" duration="278000" />
+      <workItem from="1578642068200" duration="1649000" />
     </task>
     <servers />
   </component>
@@ -591,22 +493,22 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13781000" />
+    <option name="totallyTimeSpent" value="21583000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1691" height="917" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25260577" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49893844" visible="true" weight="0.25873697" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
-      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Favorites" order="4" sideWeight="0.50106156" side_tool="true" weight="0.25260577" />
       <window_info id="Web" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32908162" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.30612245" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39923468" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.50765306" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.39846742" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -720,9 +622,21 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/hubu/controller/UserController.java</url>
-          <line>31</line>
+          <line>45</line>
           <properties />
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/hubu/controller/UserController.java</url>
+          <line>81</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/hubu/utils/MailUtils.java</url>
+          <line>70</line>
+          <properties />
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -903,17 +817,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hubu/model/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="196">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <element signature="e#268#269#0" expanded="true" />
-            <element signature="e#291#292#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resourses/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="283">
@@ -965,19 +868,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="124" column="73" selection-start-line="124" selection-start-column="68" selection-end-line="124" selection-end-column="73" />
-          <folding>
-            <element signature="n#script#0;n#div#1;n#div#1;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#script#0;n#body#0;n#html#0;n#!!top" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/test/java/a.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="395">
@@ -1006,34 +896,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resourses/com/hubu/mapper/UserDao.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/hubu/utils/Response.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="9" column="20" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hubu/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/hubu/mapper/UserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="12" column="45" lean-forward="true" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
         </state>
       </provider>
     </entry>
@@ -1044,21 +910,106 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://F:/jdk/lib/src.zip!/java.base/java/lang/ClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="520" column="15" selection-start-line="520" selection-start-column="15" selection-end-line="520" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hubu/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="18" column="11" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
+          <folding>
+            <element signature="e#830#831#0" expanded="true" />
+            <element signature="e#861#862#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hubu/utils/Md5Util.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1708">
+          <caret line="61" column="40" selection-start-line="61" selection-start-column="40" selection-end-line="61" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hubu/mapper/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="45" selection-start-line="12" selection-start-column="45" selection-end-line="12" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="124" column="73" selection-start-line="124" selection-start-column="68" selection-end-line="124" selection-end-column="73" />
+          <folding>
+            <element signature="n#script#0;n#div#1;n#div#1;n#div#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#script#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resourses/com/hubu/mapper/UserDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-140">
+          <caret column="38" selection-start-column="38" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/spring-web-5.1.3.RELEASE.jar!/org/springframework/web/method/support/InvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/web/WEB-INF/lib/spring-webmvc-5.1.3.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/ServletInvocableHandlerMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hubu/utils/MailUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1422">
+          <caret line="70" selection-start-line="70" selection-end-line="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/hubu/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        <state relative-caret-position="307">
+          <caret line="92" column="47" selection-start-line="92" selection-start-column="47" selection-end-line="92" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hubu/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="12" column="20" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/hubu/service/Impl/UserServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="29" column="73" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="73" />
-          <folding>
-            <element signature="e#1013#1014#0" expanded="true" />
-            <element signature="e#1051#1052#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="223">
+          <caret line="46" column="13" lean-forward="true" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1068,6 +1019,7 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>food:war exploded</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1101,6 +1053,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
+          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

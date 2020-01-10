@@ -38,7 +38,7 @@ public class UserServiceImpl implements UserService {
     @Override
     public Response Register(User user) {
         User u = uq.queryUserByName(user.getUsername());
-        if(u!=null){
+        if(u==null){
             int row = uq.addUser(user);
             if (row>0){
                 return Response.response(ResponseEnum.Success).add("msg","恭喜你！注册成功");
