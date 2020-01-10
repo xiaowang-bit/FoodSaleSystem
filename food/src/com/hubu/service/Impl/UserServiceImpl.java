@@ -27,8 +27,8 @@ public class UserServiceImpl implements UserService {
             user2.setUsername(name);
             User user1 = uq.queryUserByPwd(user2);
             if(user1!=null){
-                Response.response(ResponseEnum.Success).add("user",user1);
-                return Response.response(ResponseEnum.Success).add("msg","恭喜你！登录成功");
+                Response r=Response.response(ResponseEnum.Success).add("user",user1);
+                return r.add("msg","恭喜你！登录成功");
             }else {
                 return Response.response(ResponseEnum.Fail).add("msg","登录失败！密码错误");
             }

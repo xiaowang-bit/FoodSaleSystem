@@ -29,7 +29,7 @@ public class UserController {
     @RequestMapping("/ULogin")
     @ResponseBody
     public Response ULogin(String username, String pwd, HttpServletRequest request) {
-        Response resultMsg = us.Login(username, "2383");
+        Response resultMsg = us.Login("xiaowang", "2383");
         request.getSession().setAttribute("user",resultMsg.getMap().get("user"));
         Cart cart=new Cart();
         request.getSession().setAttribute("cart",cart);
