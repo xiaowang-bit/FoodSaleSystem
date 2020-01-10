@@ -10,8 +10,18 @@ import java.util.List;
 @Service
 public class UserServiceImpl implements UserService {
     @Autowired
-    private UserMapper qo;
-    public List<User> queryUser(){
-        return qo.queryOrder();
+    private UserMapper uq;
+
+    @Override
+    public User Login(String name,String pwd) {
+        User user = uq.queryUserByName(name);
+        if (user==null){
+            return
+        }
     }
+
+    public List<User> queryUser(){
+        return uq.queryOrder();
+    }
+
 }

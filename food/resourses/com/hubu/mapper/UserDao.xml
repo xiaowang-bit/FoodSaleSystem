@@ -6,9 +6,16 @@
 <mapper namespace="com.hubu.mapper.UserMapper">
 
     <insert id="addUser" parameterType="com.hubu.model.User" >
-        insert into users values (#{id},#{username}, #{password}, #{cellphone}, #{email});
+        insert into users values (#{id},#{name}, #{password}, #{cellphone}, #{email});
     </insert>
-    <update id="updateUser" parameterType="com.hubu.model.User">
-        update table users set #{username} #{password} #{cellphone} #{email} where (#{id});
+    <update id="updateUser" parameterType="com.hubu.model.User" >
+        update table users set name=#{name},password=#{password},cellphone=#{cellphone},email=#{email} where id=#{id};
     </update>
+    <select id="queryUserByName" parameterType="String" resultType="com.hubu.model.User">
+        select * from users where id=#{id};
+    </select>
+    <select id="queryUserByPwd" parameterType="String" resultType="com.hubu.model.User">
+        select * from users where name=#{name};
+    </select>
+
 </mapper>
