@@ -25,7 +25,7 @@ public class Cart {
      * 使用BigDecimal类型：解决二进制运算误差问题
      * @return
      */
-    public double getTotal() {
+    public float getTotal() {
         //使用BigDecimal类型
         BigDecimal total = BigDecimal.valueOf(0);
         //遍历每个条目
@@ -35,7 +35,7 @@ public class Cart {
             //对每个条目进行加法求和
             total = total.add(subTatal);
         }
-        return total.doubleValue();	//转为double类型
+        return total.floatValue();	//转为double类型
     }
 
 

@@ -13,9 +13,19 @@ import org.springframework.stereotype.Service;
 import java.util.List;
 @Service
 public class UserServiceImpl implements UserService {
+
     @Autowired
     private UserMapper uq;
 
+    @Override
+    public Response UpdateMyInfo(User user) {
+        int row = uq.updateUser(user);
+        if (row>=0){
+            return Response.response(ResponseEnum.Success).add("msg","更新成功");
+        }else {
+            return Response.response(ResponseEnum.Fail).add("msg","更新失败");
+        }
+    }
     @Override
     public Response Login(String name, String pwd) {
         User user = uq.queryUserByName(name);

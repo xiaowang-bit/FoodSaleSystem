@@ -11,4 +11,5 @@ public interface UserService {
     public List<User> queryUser();
     public Response Login(String name, String pwd);
     public Response Register(User user);
+    public Response UpdateMyInfo(User user);
 }

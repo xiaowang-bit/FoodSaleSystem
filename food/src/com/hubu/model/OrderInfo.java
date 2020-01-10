@@ -1,5 +1,7 @@
 package com.hubu.model;
 
+import java.util.List;
+
 /**
  * @author star
  * @date 2020/1/10 10:21
@@ -11,6 +13,18 @@ public class OrderInfo {
     private float price;
     private int status;
     private String user_id;
+
+    public List<OrderItem> getList() {
+        return list;
+    }
+
+    public void setList(List<OrderItem> list) {
+        this.list = list;
+    }
+
+    private List<OrderItem> list;
+
+
 
     public OrderInfo(String id, int num, float price, int status, String user_id) {
         this.id = id;

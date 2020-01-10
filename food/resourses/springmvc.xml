@@ -32,12 +32,25 @@
 </bean>
 <!-- 配置SqlSessionFactory对象 -->
 <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
-<!-- 注入数据库连接池 -->
-<property name="dataSource" ref="dataSource"/>
-<!-- 扫描model包 使用别名 -->
-<property name="typeAliasesPackage" value="com.hubu.model"/>
-<!-- 扫描sql配置文件:mapper需要的xml文件 -->
-<property name="mapperLocations" value="classpath:com/hubu/mapper/*.xml"/>
+    <!-- 注入数据库连接池 -->
+    <property name="dataSource" ref="dataSource"/>
+    <!-- 扫描model包 使用别名 -->
+    <property name="typeAliasesPackage" value="com.hubu.model"/>
+    <!-- 扫描sql配置文件:mapper需要的xml文件 -->
+    <property name="mapperLocations" value="classpath:com/hubu/mapper/*.xml"/>
+    <property name="plugins">
+        <array>
+            <bean class="com.github.pagehelper.PageInterceptor">
+                <property name="properties">
+                    <!--浣跨敤涓嬮潰鐨勬柟寮忛厤缃弬鏁帮紝涓€琛岄厤缃竴涓?-->
+                    <value>
+                        helper-dialect: mysql
+                        reasonable:true
+                    </value>
+                </property>
+            </bean>
+        </array>
+    </property>
 </bean>
 <!-- 配置扫描Dao接口包，动态实现Dao接口，注入到spring容器中 -->
 <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
@@ -45,6 +58,7 @@
 <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>
 <!-- 给出需要扫描Dao接口包 -->
 <property name="basePackage" value="com.hubu.mapper"/>
+
 </bean>
 <!-- 配置事务管理器 -->
 <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
