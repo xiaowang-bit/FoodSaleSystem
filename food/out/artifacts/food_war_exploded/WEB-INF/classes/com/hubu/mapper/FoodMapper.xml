@@ -8,6 +8,6 @@
         select * from food
     </select>
     <select id="findFoodByCat" parameterType="string" resultType="com.hubu.model.Food">
-        select * from food where category=#{category}
+        select * from food where category_id=#{category}
     </select>
 </mapper>
