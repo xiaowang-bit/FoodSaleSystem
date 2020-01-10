@@ -1,0 +1,757 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="food:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5114e06c-9fe4-4171-99ce-584e9abee7de" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/.idea/artifacts/FoodSaleSystem_war_exploded.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/.idea/libraries/lib.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/FoodSaleSystem.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/out/production/FoodSaleSystem/com/hubu/mapper/queryUsers.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/out/production/FoodSaleSystem/druid.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/out/production/FoodSaleSystem/springmvc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/resources/com/hubu/mapper/queryUsers.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/resources/druid.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/resources/springmvc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/src/com/hubu/mapper/queryUsers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/src/com/hubu/model/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/src/com/hubu/service/Impl/IUserService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/src/com/hubu/utils/JDBCUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/src/com/hubu/utils/JedisUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/src/com/hubu/utils/MailUtils.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/src/com/hubu/utils/Md5Util.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/src/com/hubu/utils/UuidUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/contact.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/css/animate.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/css/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/images/12.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/images/banner.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/images/cross.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/images/cuisine1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/images/cuisine2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/images/cuisine3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/images/cuisine4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/images/cuisine5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/images/cuisine6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/images/cuisine7.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/images/cuisine8.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/images/dotted-line-right-wide.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/images/dotted-line-right.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/images/dotted-line.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/images/icon1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/images/icon2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/images/icon3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/images/img-sprite.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/images/line.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/images/lunch.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/images/order-section-bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/images/order.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/images/p1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/images/p2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/images/p3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/images/restaurent-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/images/restaurent-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/images/restaurent-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/images/restaurent-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/images/restaurent-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/images/restaurent-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/images/restaurent-logo1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/images/restaurent-logo2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/images/restaurent-logo3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/images/restaurent-logo4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/images/restaurent-logo5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/images/restaurent-logo6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/images/service-banner.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/images/star1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/images/star2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/images/tick1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/images/to-top2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/js/classie.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/js/easing.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/js/jquery.carouFredSel-6.1.0-packed.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/js/jquery.easydropdown.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/js/jquery.flexisel.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/js/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/js/move-top.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/js/tms-0.4.1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/js/uisearch.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/js/wow.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/order.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/popular-Restaurents.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../FoodSaleSystem/web/register.html" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Tag Library Descriptor" />
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="spring-beans.schema" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/com/hubu/utils/JedisUtil.java" />
+        <option value="$PROJECT_DIR$/src/com/hubu/model/Users.java" />
+        <option value="$PROJECT_DIR$/src/com/hubu/mapper/UserMapper.java" />
+        <option value="$PROJECT_DIR$/src/com/hubu/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/resourses/com/hubu/mapper/queryOrder.xml" />
+        <option value="$PROJECT_DIR$/src/com/hubu/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/com/hubu/service/Impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/a.java" />
+        <option value="$PROJECT_DIR$/resourses/druid.properties" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-12" />
+    <option name="y" value="-12" />
+    <option name="width" value="981" />
+    <option name="height" value="1054" />
+  </component>
+  <component name="ProjectId" id="1W9TgrhjhhHAKpMaYWrZYJYrZDT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="food" type="b2602c69:ProjectViewProjectNode" />
+              <item name="food" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="food" type="b2602c69:ProjectViewProjectNode" />
+              <item name="food" type="462c0819:PsiDirectoryNode" />
+              <item name="resourses" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="food" type="b2602c69:ProjectViewProjectNode" />
+              <item name="food" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="food" type="b2602c69:ProjectViewProjectNode" />
+              <item name="food" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="hubu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="food" type="b2602c69:ProjectViewProjectNode" />
+              <item name="food" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="hubu" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="food" type="b2602c69:ProjectViewProjectNode" />
+              <item name="food" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="food" type="b2602c69:ProjectViewProjectNode" />
+              <item name="food" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="food" type="b2602c69:ProjectViewProjectNode" />
+              <item name="food" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.1484375" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\idea2019exe\ideaProject\HomeworkDesign\code\gitProject\food\web\WEB-INF\lib" />
+      <recent name="F:\idea2019exe\ideaProject\HomeworkDesign\code\gitProject\food\src\com\hubu\utils" />
+      <recent name="F:\idea2019exe\ideaProject\HomeworkDesign\code\gitProject\food\web" />
+      <recent name="C:\Users\Administrator\Desktop\food\web\WEB-INF\lib" />
+      <recent name="C:\Users\徐博士\IdeaProjects\food\web\WEB-INF\lib" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hubu.model" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Administrator\Desktop\food\resourses\com\hubu" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Tomcat 8.5.45">
+    <configuration name="UserController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.hubu.controller.UserController" />
+      <module name="food" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hubu.controller.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="a" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="a" />
+      <module name="food" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="a.b" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="food" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="a" />
+      <option name="METHOD_NAME" value="b" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 8.5.45" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.5.41" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment>
+        <artifact name="food:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/food" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Tomcat_8_5_45_food" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="64351" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="food:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.a" />
+      <item itemvalue="Application.UserController" />
+      <item itemvalue="JUnit.a.b" />
+      <item itemvalue="Tomcat Server.Tomcat 8.5.45" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.a.b" />
+        <item itemvalue="Application.UserController" />
+        <item itemvalue="Application.a" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SpringBeansView">
+    <option name="beanDetailsProportion" value="0.3" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5114e06c-9fe4-4171-99ce-584e9abee7de" name="Default Changelist" comment="" />
+      <created>1578560924863</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1578560924863</updated>
+      <workItem from="1578560929257" duration="1070000" />
+      <workItem from="1578566452931" duration="196000" />
+      <workItem from="1578567086906" duration="14074000" />
+      <workItem from="1578619348249" duration="1984000" />
+      <workItem from="1578621634473" duration="13000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="a_b - 2020.01.10 at 09h 49m 27s.xml">
+      <configuration name="a.b" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="a_b - 2020.01.10 at 09h 49m 53s.xml">
+      <configuration name="a.b" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1997000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1691" height="917" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25260577" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info id="Web" order="5" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32908162" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Application Servers" order="7" />
+      <window_info anchor="bottom" id="Spring" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Docker" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="bottom" id="Flutter Performance" order="15" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="16" weight="0.32908162" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Flutter Inspector" order="5" />
+      <window_info anchor="right" id="Flutter Outline" order="6" />
+      <window_info anchor="right" id="Database" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="417" y="138" key="#Project_Structure" timestamp="1578587871617">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="313" y="122" key="#Project_Structure/0.0.1440.920@0.0.1440.920" timestamp="1578561874198" />
+    <state x="417" y="138" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1578587871617" />
+    <state x="552" y="181" key="#SQL_Dialects" timestamp="1578569489516">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="181" key="#SQL_Dialects/0.0.1920.1040@0.0.1920.1040" timestamp="1578569489516" />
+    <state x="552" y="181" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1578586391746">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="181" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1578586391746" />
+    <state x="765" y="213" key="#com.intellij.ide.util.MemberChooser" timestamp="1578585858455">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="213" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1578585858455" />
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom" timestamp="1578588666440">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578588666440" />
+    <state width="1877" height="348" key="GridCell.Tab.0.center" timestamp="1578588666440">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578588666440" />
+    <state width="1877" height="348" key="GridCell.Tab.0.left" timestamp="1578588666440">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578588666440" />
+    <state width="1877" height="348" key="GridCell.Tab.0.right" timestamp="1578588666440">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578588666440" />
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1578588666440">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578588666440" />
+    <state width="1877" height="348" key="GridCell.Tab.1.center" timestamp="1578588666440">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578588666440" />
+    <state width="1877" height="348" key="GridCell.Tab.1.left" timestamp="1578588666440">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578588666440" />
+    <state width="1877" height="348" key="GridCell.Tab.1.right" timestamp="1578588666440">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="348" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578588666440" />
+    <state width="1293" height="253" key="GridCell.Tab.2.bottom" timestamp="1578588666437">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="253" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1578588666437" />
+    <state width="1293" height="253" key="GridCell.Tab.2.center" timestamp="1578588666437">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="253" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1578588666437" />
+    <state width="1293" height="253" key="GridCell.Tab.2.left" timestamp="1578588666437">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="253" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1578588666437" />
+    <state width="1293" height="253" key="GridCell.Tab.2.right" timestamp="1578588666437">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1293" height="253" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1578588666437" />
+    <state x="658" y="421" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1578584492847">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="658" y="421" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1040@0.0.1920.1040" timestamp="1578584492847" />
+    <state x="647" y="275" width="626" height="490" key="find.popup" timestamp="1578579365505">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="647" y="275" width="626" height="490" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1578579365505" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/food.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-646" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/utils/Md5Util.java" />
+    <entry file="file://$PROJECT_DIR$/web/popular-Restaurents.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hubu/utils/JDBCUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="28" column="11" lean-forward="true" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resourses/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-348">
+          <caret line="4" column="64" lean-forward="true" selection-start-line="4" selection-start-column="64" selection-end-line="4" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hubu/model/Users.java" />
+    <entry file="file://$PROJECT_DIR$/src/com/hubu/utils/JedisUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="2" column="35" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hubu/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hubu/service/Impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+          <folding>
+            <element signature="e#406#407#0" expanded="true" />
+            <element signature="e#444#445#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/a.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="11" column="31" selection-start-line="11" selection-start-column="31" selection-end-line="11" selection-end-column="31" />
+          <folding>
+            <element signature="e#218#219#0" expanded="true" />
+            <element signature="e#256#257#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/java/a.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="17" column="32" lean-forward="true" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resourses/springmvc.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resourses/com/hubu/mapper/queryOrder.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resourses/druid.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hubu/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hubu/mapper/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/hubu/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>food</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>lib</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
