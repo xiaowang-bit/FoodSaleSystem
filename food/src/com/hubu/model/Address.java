@@ -15,7 +15,8 @@ public class Address {
         this.address = address;
         this.user_id = user_id;
     }
-    public Address(){
+
+    public Address() {
         super();
     }
 

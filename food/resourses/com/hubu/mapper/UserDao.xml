@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.hubu.mapper.UserMapper">
+
+    <insert id="addUser" parameterType="com.hubu.model.User" >
+        insert into users values (#{id},#{username}, #{password}, #{cellphone}, #{email});
+    </insert>
+    <update id="updateUser" parameterType="com.hubu.model.User">
+        update table users set #{username} #{password} #{cellphone} #{email} where (#{id});
+    </update>
+</mapper>

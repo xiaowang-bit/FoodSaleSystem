@@ -7,17 +7,18 @@ package com.hubu.model;
  */
 public class User {
     private String id;
-    private String username;
+    private String name;
     private String password;
     private String cellphone;
     private String email;
-    public User(){
+
+    public User() {
         super();
     }
 
-    public User(String id, String username, String password, String cellphone, String email) {
+    public User(String id, String name, String password, String cellphone, String email) {
         this.id = id;
-        this.username = username;
+        this.name = name;
         this.password = password;
         this.cellphone = cellphone;
         this.email = email;
@@ -32,11 +33,11 @@ public class User {
     }
 
     public String getUsername() {
-        return username;
+        return name;
     }
 
     public void setUsername(String username) {
-        this.username = username;
+        this.name = username;
     }
 
     public String getPassword() {
@@ -67,7 +68,7 @@ public class User {
     public String toString() {
         return "User{" +
                 "id=" + id +
-                ", username='" + username + '\'' +
+                ", username='" + name + '\'' +
                 ", password='" + password + '\'' +
                 ", cellphone='" + cellphone + '\'' +
                 ", email='" + email + '\'' +

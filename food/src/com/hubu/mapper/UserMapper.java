@@ -8,4 +8,6 @@ import java.util.List;
 @Repository
 public interface UserMapper {
     public List<User> queryOrder();
+    public int addUser(User user);
+    public int updateUser(User user);
 }
