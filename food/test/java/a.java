@@ -26,8 +26,8 @@ public class a {
     @Test
     public void b(){
         System.out.println(applicationContext.containsBean("userMapper"));
-        System.out.println(um.queryOrder());
-        System.out.println(service.queryUser());
-        System.out.println(userController.userquery());
+        System.out.println(um.queryUserByName("xiaowang"));
+//        System.out.println(um.queryUserByPwd("2383"));
+        System.out.println(service.Login("xiaowang","2383"));
     }
 }

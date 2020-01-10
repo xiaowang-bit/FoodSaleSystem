@@ -11,6 +11,6 @@ public interface UserMapper {
     public int addUser(User user);
     public int updateUser(User user);
     public User queryUserByName(String name);
-    public User queryUserByPwd(String password);
+    public User queryUserByPwd(User user);
 
 }
