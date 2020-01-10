@@ -85,6 +85,157 @@
 
     </script>
     <script src="js/jquery.easydropdown.js"></script>
+    <style>
+        .row1 {
+            display: table;
+            margin: auto;
+        }
+
+        .div {
+            display: table-cell;
+
+        }
+
+        .wow swing animated {
+            display: table-cell;
+        }
+
+        .order-number {
+            margin-left: 10px;
+            margin-right: 40px;
+        }
+
+        .dropdown-content {
+            height: 28px;
+            width: 250px;
+            margin-left: 10px;
+            margin-right: 15px;
+        }
+
+        .rows th {
+            text-align: center;
+        }
+
+        .btns {
+            border-radius: 3px;
+            border: 1px solid rgb(236, 151, 31);
+            width: 80px;
+            height: 40px;
+            background-color: rgb(236, 151, 31);
+            color: white;
+        }
+
+        .p-btn, .c-btn, .v-btn {
+            background-color: rgb(51, 122, 183);
+            border: 1px solid rgb(51, 122, 183);
+            color: white;
+            width: 80px;
+            height: 30px;
+            border-radius: 3px;
+        }
+
+        .pageNum, .totalNum {
+            color: red;
+            font-size: 25px;
+        }
+
+        .row {
+            margin-top: 50px;
+        }
+
+        .menu div {
+            position: absolute;
+            top: 0;
+            height: 60px;
+            font-family: microsoft yahei
+        }
+
+        .menu .all-sort a {
+            color: #fff;
+            display: block;
+            width: 100%;
+            height: 100%;
+            line-height: 40px
+        }
+
+        .menu .nav ul li {
+            float: left;
+            width: 85px;
+            line-height: 40px
+        }
+
+        .menu .nav ul li a {
+            display: block;
+            width: 100%;
+            color: #fff;
+            text-align: center;
+            font: 700 15px / 40px "Microsoft Yahei"
+        }
+
+        .menu .nav ul li a:hover, .menu .nav ul li a.current {
+            background: #a40000;
+            text-decoration: none
+        }
+
+        .nav_top a, .nav_top a:hover {
+            color: #323232;
+            font: 14px / 40px "Microsoft Yahei";
+            text-decoration: none;
+            padding: 0 15px;
+            display: block;
+            font-weight: bold;
+        }
+
+        .nav_top ul {
+            width: 1200px;
+            margin: 0 auto;
+        }
+
+        .nav_top ul li {
+            float: left;
+            text-align: center;
+            position: relative;
+        }
+
+        .nav_top ul li.all {
+            width: 200px;
+            margin-right: 17px;
+            _display: inline;
+            text-align: left;
+            background: #ff2832;
+            position: relative;
+        }
+
+        .nav_top ul li.all a, .nav_top ul li.all a:hover {
+            padding: 0 0 0 20px;
+            display: block;
+            width: 171px;
+            background: no-repeat 161px -567px;
+            color: #fff;
+        }
+
+        .nav_top ul li a:hover {
+            display: block;
+            color: #ff2832;
+        }
+
+        .narrow_page .nav_top ul {
+            width: 960px;
+        }
+
+        .nav_top ul li.all a:hover {
+            background: no-repeat 161px -567px;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        .storey container {
+            margin-top: 30px;
+        }
+
+    </style>
 </head>
 <body>
 <!-- header-section-starts -->
@@ -104,13 +255,13 @@
         <div class="container">
             <div class="top-menu">
                 <ul>
-                    <li class="active"><a href="index.html">首页</a></li>
+                    <li><a href="index.html">首页</a></li>
                     |
                     <li><a href="popular-restaurents.html">点餐</a></li>
                     |
                     <li><a href="contact.html">购物车</a></li>
                     |
-                    <li><a href="Order.html">订单</a></li>
+                    <li class="active"><a href="Order.html">订单</a></li>
                     <div class="clearfix"></div>
                 </ul>
             </div>
@@ -134,52 +285,84 @@
         <div class="container">
             <div class="order-form-head text-center wow bounceInLeft" data-wow-delay="0.4s">
                 <h3>Restaurant Order Form</h3>
-                <p>Ordering Food Was Never So Simple !!!!!!</p>
+                <p>Ordering Food Was Never So Simple</p>
             </div>
             <div class="col-md-6 order-form-grids">
-
                 <div class="order-form-grid  wow fadeInLeft" data-wow-delay="0.4s">
                     <h5>Order Information</h5>
-                    <span>Type of Order</span>
-                    <div class="dropdown-button">
-                        <select class="dropdown" tabindex="9" data-settings='{"wrapperClass":"flat"}'>
-                            <option value="0">Pick up</option>
-                            <option value="1">Delivery</option>
-                            <option value="2">Catering</option>
-                        </select>
-                    </div>
-                    <span>Restaurant Location</span>
-                    <div class="dropdown-button wow">
-                        <select class="dropdown" tabindex="9" data-settings='{"wrapperClass":"flat"}'>
-                            <option value="0">Restaurent A,144 East MG Road Indore</option>
-                            <option value="1">Restaurent B,64 Paarli Hills IndoreIndore</option>
-                        </select>
-                    </div>
-                    <span>Location name</span>
-                    <div class="dropdown-button">
-                        <select class="dropdown" tabindex="9" data-settings='{"wrapperClass":"flat"}'>
-                            <option value="0">Secundrabad</option>
-                            <option value="1">Location-1</option>
-                            <option value="2">Location-2</option>
-                        </select>
-                    </div>
-                    <span>cuisine-name</span>
-                    <div class="dropdown-button">
-                        <select class="dropdown" tabindex="9" data-settings='{"wrapperClass":"flat"}'>
-                            <option value="0">cuisine-name</option>
-                            <option value="1">cuisine-name</option>
-                            <option value="2">cuisine-name</option>
-                        </select>
-                    </div>
-                    <input type="text" class="text" value="Time" onfocus="this.value = '';"
-                           onblur="if (this.value == '') {this.value = 'Time';}"><br>
-                    <div class="wow swing animated" data-wow-delay="0.4s">
-                        <input type="button" value="order now">
+                    <!--主体部分-->
+                    <div class="container">
+                        <!--搜索框-->
+                        <div class="row1">
+                            <div class="div">
+                                <b>订单号：</b>
+                                <input type="text" class="order-number" id="search-id"/>
+                                <b>订单状态：</b>
+                                <select name="status" class="dropdown-content" id="select-status">
+                                    <option class="orders" value="5">全部订单</option>
+                                    <option value="0" class="orders">待付款</option>
+                                    <option value="3" class="orders">已付款</option>
+                                    <option value="1" class="orders">已发货</option>
+                                    <option value="4" class="orders">已退款</option>
+                                </select>
+                            </div>
+                            <div class="wow swing animated" data-wow-delay="0.4s">
+                                <input type="button" value="搜索" id="btn_search" class="btns"/>
+                            </div>
+                        </div>
+                        <br>
+                        <br>
+                        <!--表格-->
+                        <div class="row">
+                            <div class="col-md-12">
+                                <table class="table table-hover" id="tab" style="text-align: center;" border="1px">
+                                    <tr class="rows">
+                                        <th colspan="2">美食信息</th>
+                                        <th>数量</th>
+                                        <th>单价（元）</th>
+                                        <th>状态</th>
+                                        <th>操作</th>
+                                    </tr>
+                                    <tbody id="items" style="text-align: center">
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+
+                        <!--&lt;!&ndash;分页&ndash;&gt;-->
+                        <!--<div class="row">-->
+                            <!--&lt;!&ndash;分页文字信息&ndash;&gt;-->
+                            <!--<div class="col-md-6">-->
+                                <!--<i></i><b>共</b>-->
+                                <!--<span id="totalPage" class="pageNum">12</span><b>页</b><span id="totalCount" class="totalNum">100</span><b>条</b>-->
+                            <!--</div>-->
+                            <!--&lt;!&ndash;分页条信息&ndash;&gt;-->
+                            <!--<div class="page">-->
+                                <!--<nav aria-label="Page navigation">-->
+                                    <!--<ul class="pagination">-->
+                                        <!--<li><a href="#">首页</a></li>-->
+                                        <!--<li>-->
+                                            <!--<a href="#" aria-label="Previous">-->
+                                                <!--<span aria-hidden="true">&laquo;</span>-->
+                                            <!--</a>-->
+                                        <!--</li>-->
+                                        <!--<li><a href="#">1</a></li>-->
+                                        <!--<li><a href="#">2</a></li>-->
+                                        <!--<li><a href="#">3</a></li>-->
+                                        <!--<li><a href="#">4</a></li>-->
+                                        <!--<li><a href="#">5</a></li>-->
+                                        <!--<li>-->
+                                            <!--<a href="#" aria-label="Next">-->
+                                                <!--<span aria-hidden="true">&raquo;</span>-->
+                                            <!--</a>-->
+                                        <!--</li>-->
+                                        <!--<li><a href="#">末页</a></li>-->
+                                    <!--</ul>-->
+                                <!--</nav>-->
+                            <!--</div>-->
+                        <!--</div>-->
                     </div>
                 </div>
-            </div>
-            <div class="col-md-6 ordering-image wow bounceIn" data-wow-delay="0.4s">
-                <img src="images/order.jpg" class="img-responsive" alt=""/>
             </div>
         </div>
     </div>
@@ -289,11 +472,174 @@
 <div class="footer">
     <div class="container">
         <p class="wow fadeInLeft" data-wow-delay="0.4s">Copyright &copy; 2020.Loving HUBU All rights reserved. More
-            imformation <a href="http://www.hubu.edu.cn/" target="_blank" title="Loving HUBU">Loving HUBU</a> - please click <a
+            imformation <a href="http://www.hubu.edu.cn/" target="_blank" title="Loving HUBU">Loving HUBU</a> - please
+            click <a
                     href="http://www.hubu.edu.cn/" title="Loving HUBU" target="_blank">HUBU JAVA</a></p>
     </div>
 </div>
 <!-- footer-section-ends -->
+<script type="text/javascript">
+    baseUrl = "http://123.57.18.175:8081/api";
+    var status = {"0": "待付款", "1": "已发货", "2": "订单撤销", "3": "订单完成", "4": "订单失败"};
+    //显示订单数据
+    $.ajax({
+        url: baseUrl + "/orderInfo/list",
+        type: "GET",
+        dataType: "json",
+        contentType: "application/json;charset=utf-8",
+        xhrFields: {
+            withCredentials: true
+        },
+        crossDomain: true,
+        success: function (data) {
+            data1 = data.data;
+            load(data1);
+            //console.log(data1);
+        }
+    });
+
+    function load(data) {
+        for (var i = 0; i < data.length; i++) {
+            var tr = $("<tr></tr>")
+            var td1 = $("<td colspan='2'></td>").addClass("eachorder");
+            td1 = td1.append(data[i].orderInfoId);
+            var td2 = $("<td></td>").append(data[i].orderInfoNum);
+            var td3 = $("<td></td>").append(data[i].orderInfoPrice);
+            var td4 = $("<td></td>").addClass("st");
+            if (data[i].orderInfoStatus == 0) {
+                var td4 = $("<td></td>").append("待付款");
+                var input = $("<input />").attr("type", "button").attr("value", "付款").addClass("p-btn");
+                var span = $("<span></span>").append(input);
+                var td5 = $("<td></td>").append(span);
+            } else if (data[i].orderInfoStatus == 3) {
+                var td4 = $("<td></td>").append("已付款");
+                var input = $("<input />").attr("type", "button").attr("value", "退款").addClass("v-btn");
+                var span = $("<span></span>").append(input);
+                var td5 = $("<td></td>").append(span);
+            } else {
+                if (data[i].orderInfoStatus == 1) {
+                    var td4 = $("<td></td>").append("已发货");
+                } else if (data[i].orderInfoStatus == 2) {
+                    var td4 = $("<td></td>").append("已退款");
+                } else {
+                    var td4 = $("<td></td>").append("已退款");
+                }
+                var input = $("<input />").attr("type", "button").attr("value", "查看详情").addClass("c-btn");
+                var span = $("<span></span>").append(input);
+                var td5 = $("<td></td>").append(span);
+            }
+            tr.append(td1);
+            tr.append(td2);
+            tr.append(td3);
+            tr.append(td4);
+            tr.append(td5);
+            $("#items").append(tr);
+        }
+
+        //付款
+        $(".p-btn").bind("click", function () {
+            var orderInfoId = $(this).parent().parent().siblings(".eachorder").text();
+            var a = confirm("确定付款吗？");
+            //console.log(orderInfoId);
+            if (a == true) {
+                $.ajax({
+                    url: baseUrl + "/orderInfo/update?orderInfoId=" + orderInfoId + "&orderInfoStatus=3",
+                    type: "GET",
+                    dataType: "json",
+                    contentType: "application/json;charset=utf-8",
+                    xhrFields: {
+                        withCredentials: true
+                    },
+                    crossDomain: true,
+                    success: function (res) {
+                        if (res.code == 0) {
+                            alert("付款成功！");
+                            $(this).val("退款");
+                            $(this).removeClass('p-btn').addClass('v-btn');
+                            var newtext = "已付款";
+                            $(this).parent().siblings('.st').html(newtext);
+                            window.location.reload();
+                        } else {
+                            alert("失败！");
+                        }
+                    }
+                });
+            }
+        });
+
+        //撤销
+        $(".v-btn").bind("click", function () {
+            var orderInfoId = $(this).parent().parent().siblings(".eachorder").text();
+            var a = confirm("确定退款吗？");
+            //console.log(orderInfoId);
+            if (a == true) {
+                $.ajax({
+                    url: baseUrl + "/orderInfo/update?orderInfoId=" + orderInfoId + "&orderInfoStatus=4",
+                    type: "GET",
+                    dataType: "json",
+                    contentType: "application/json;charset=utf-8",
+                    xhrFields: {
+                        withCredentials: true
+                    },
+                    crossDomain: true,
+                    success: function (res) {
+                        if (res.code == 0) {
+                            $(this).val("查看详情");
+                            $(this).removeClass('v-btn').addClass('c-btn');
+                            var newtext = "已退款";
+                            $(this).parent().siblings('.st').html(newtext);
+                            window.location.reload();
+                        } else {
+                            alert("失败！");
+                        }
+                    }
+                });
+            }
+        });
+
+        //查看详情
+        $(".c-btn").bind("click", function () {
+            window.location.href = "book.html"
+        })
+    }
+
+    $(function () {
+        //根据id点击按钮查询
+        $("#btn_search").click(function () {
+            //订单id
+            var orderInfoId = $("#search-id").val();
+            //根据商品状态查询
+            var orderInfoStatus = $("#select-status option:selected").val();
+            console.log(orderInfoStatus);
+            if (orderInfoStatus != "5") {
+                $.ajax({
+                    url: baseUrl + "/orderInfo/list?orderInfoId" + orderInfoId + "&orderInfoStatus=" + orderInfoStatus,
+                    type: "GET",
+                    dataType: "json",
+                    contentType: "application/json;charset=utf-8",
+                    xhrFields: {
+                        withCredentials: true
+                    },
+                    crossDomain: true,
+                    success: function (data) {
+                        var data2 = new Array();
+                        data2[0] = data.data;
+                        console.log(data2[0]);
+                        // debugger
+                        $("#items").remove();
+                        var items = document.createElement("tbody");
+                        items.setAttribute("id", "items");
+                        $("#tab").append(items);
+                        load(data2[0]);
+                    }
+                });
+            } else {
+                //跳转路径
+                window.location.href = "orderInfo.html";
+            }
+        });
+    });
+</script>
 <script type="text/javascript">
     $(document).ready(function () {
         /*
