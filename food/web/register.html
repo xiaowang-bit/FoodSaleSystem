@@ -38,6 +38,35 @@
             });
         });
     </script>
+
+    <script>
+        function checkEmail(email) {
+            if (email.search(/^.+@.+$/) == -1) {
+                alert("邮箱不正确");
+            }else {
+            }
+        }
+        function checkUsername(username) {
+            if (username.search(/^.{5,10}$/) == -1) {
+               alert("用户名格式不正确");
+            }else {
+            }
+        }
+        function checkPwd1(pwd1) {
+            if (pwd1.search(/^.{6,20}$/) == -1) {
+               alert("密码格式不正确");
+            }else {
+            }
+        }
+        function checkPwd2() {
+            var pwd1=document.getElementById("pwd1").value;
+            var pwd2=document.getElementById("pwd2").value;
+            if(pwd1 != pwd2){
+                alert("两次输入密码不相同");
+            }
+
+        }
+    </script>
 </head>
 <body>
 <!-- header-section-starts -->
@@ -59,11 +88,11 @@
                 <ul>
                     <li class="active"><a href="index.html">首页</a></li>
                     |
-                    <li><a href="popular-restaurents.html">点餐</a></li>
+                    <li><a href="popular-Restaurents.html">点餐</a></li>
                     |
                     <li><a href="contact.html">购物车</a></li>
                     |
-                    <li><a href="Order.html">订单</a></li>
+                    <li><a href="order.html">订单</a></li>
                     <div class="clearfix"></div>
                 </ul>
             </div>
@@ -87,46 +116,58 @@
     <div class="main">
         <div class="container">
             <div class="register">
-                <form>
+                <form id="registerForm">
                     <div class="register-top-grid">
-                        <h3>PERSONAL INFORMATION</h3>
+                        <h3>个人信息</h3>
                         <div class="wow fadeInLeft" data-wow-delay="0.4s">
-                            <span>First Name<label>*</label></span>
-                            <input type="text">
+                            <span>用户名<label>*</label></span>
+                            <input type="text" name="name" placeholder="用户名5-10位字符" onblur="checkUsername(this.value);">
                         </div>
                         <div class="wow fadeInRight" data-wow-delay="0.4s">
-                            <span>Last Name<label>*</label></span>
-                            <input type="text">
+                            <span>手机号<label>*</label></span>
+                            <input type="text" name="cellphone" placeholder="请输入常用手机号">
+                        </div>
+                        <div class="wow fadeInLeft" data-wow-delay="0.4s">
+                            <span>Email<label>*</label></span>
+                            <input type="text" name="email" onblur="checkEmail(this.value);" placeholder="请输入常用邮箱">
                         </div>
                         <div class="wow fadeInRight" data-wow-delay="0.4s">
-                            <span>Email Address<label>*</label></span>
-                            <input type="text">
+                            <span>地址<label>*</label></span>
+                            <input type="text" name="address" placeholder="绝对保密">
                         </div>
-                        <div class="clearfix"></div>
-                        <a class="news-letter" href="#">
+                        <div class="wow fadeInLeft" data-wow-delay="0.4s">
+                            <span>密码<label>*</label></span>
+                            <input type="password" name="password" id="pwd1" placeholder="请使用6~20个英文字母（区分大小写）、符号或数字" onblur="checkPwd1(this.value);">
+                        </div>
+                        <div class="wow fadeInRight" data-wow-delay="0.4s">
+                            <span>确认密码<label>*</label></span>
+                            <input type="password" id="pwd2" placeholder="再次输入确认密码" onblur="checkPwd2();" >
+                        </div>
+                        <div class="register-but">
+                                <input type="button" value="提交" onclick="regist()">
+                           <!-- <button id="regist" type="button" onclick="regist()" >登　录</button>-->
+                                <div class="clearfix"></div>
+                        </div>
+
+                      <!--  <div class="clearfix"></div>-->
+                      <!--  <a class="news-letter" href="#">
                             <label class="checkbox"><input type="checkbox" name="checkbox" checked=""><i> </i>Sign Up
                                 for Newsletter</label>
-                        </a>
+                        </a>-->
                     </div>
-                    <div class="register-bottom-grid">
-                        <h3>LOGIN INFORMATION</h3>
-                        <div class="wow fadeInLeft" data-wow-delay="0.4s">
-                            <span>Password<label>*</label></span>
-                            <input type="text">
-                        </div>
-                        <div class="wow fadeInRight" data-wow-delay="0.4s">
-                            <span>Confirm Password<label>*</label></span>
-                            <input type="text">
-                        </div>
-                    </div>
+
+                 <!--   <div class="register-bottom-grid">-->
+                     <!--   <h3>登录信息</h3>-->
+
+                   <!-- </div>-->
                 </form>
-                <div class="clearfix"></div>
-                <div class="register-but">
+                <!--<div class="clearfix"></div>-->
+                <!--<div class="register-but">
                     <form>
                         <input type="submit" value="submit">
                         <div class="clearfix"></div>
                     </form>
-                </div>
+                </div>-->
             </div>
         </div>
     </div>
@@ -328,6 +369,34 @@
         $().UItoTop({easingType: 'easeOutQuart'});
 
     });
+
+    function regist() {
+        $.ajax({
+            url:"/food/LRegister",
+            type: "POST",
+            dataType: "json",
+            contentType: "application/json;charset=utf-8",
+            xhrFields: {
+                withCredentials: true
+            },
+
+            data:$('#registerForm').serialize(),
+            crossDomain: true,
+            success: function (res) {
+                //alert(JSON.stringify(data))
+                console.log(res.code);
+                console.log(res.msg);
+                if(res.code == 200){
+                    alert("成功啦");
+                    location.href="login.html";
+                }
+            },
+            error:function (data) {
+                alert("失败");
+            }
+
+        })
+    }
 </script>
 <a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
 

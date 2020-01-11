@@ -38,6 +38,92 @@
             });
         });
     </script>
+    <style>
+        ul {
+            list-style:none;
+        }
+    </style>
+    <script>
+      $(function () {
+          $.ajax({
+              url:"/food/findfood?page=1",
+              type:"GET",
+              dataType:"json",
+              contentType:"application/json;charset=utf-8",
+              xhrFields:{
+                  withCredentials:true
+              },
+              crossDomain:true,
+              success:function (res) {
+                  var data1 = res.map;
+                  console.log(data1);
+                  /* var food_lis= "";
+                  for (var i = 0; i <data1.length; i++) {
+
+                      var food =data1[i];
+
+                          var li='<li><div class="Popular-Restaurants-grid wow fadeInLeft" data-wow-delay="0.4s">\n'+
+                                 '<div class="col-md-3 restaurent-logo">\n'+
+                                  '<img src="" class="img-responsive" alt=""/>\n'+
+                                  '</div>\n'+
+                                 '<div class="col-md-2 restaurent-title">\n'+
+                                 '<div class="logo-title">\n'+
+                                 '<h4><a href="#">+food.name+</a></h4>\n'+
+                              '</div>\n'+
+                              '<div class="rating">\n'+
+                              '<span>+food.description+</span>\n'+
+                              '<a href="#"> <img src="images/star1.png" class="img-responsive" alt="">(004)</a>\n'+
+                              '</div>\n'+
+                              '</div>\n'+
+                              '<div class="col-md-7 buy">\n'+
+                              '<label hidden>'+food.id+'</label>'+
+                              '<span>+food.price+</span>\n'+
+                              '<input type="button" value="buy" onclick="insertOrderItem(this)">\n'+
+                              '</div>\n'+
+                              '<div class="clearfix"></div>\n'+
+                              '</div></li>';
+
+                          food_lis += li;
+                  }
+                  $("#foodItem").html(food_lis);*/
+              }
+
+
+          });
+      });
+
+      function insertOrderItem(obj) {
+          //取单价节点
+
+          console.log(obj.parentNode.childNodes[3].innerText);
+          var foodPrice=obj.parentNode.childNodes[3].innerText;
+
+          //取foodid节点
+         /* console.log(obj.parentNode.childNodes[1]);*/
+          console.log(obj.parentNode.childNodes[1].innerText);
+          var foodId=obj.parentNode.childNodes[1].innerText;
+          alert("hhh");
+
+          $.ajax({
+              url:"/food/addCartItem?cid=1&count=1",
+              type:"GET",
+              dataType:"json",
+              contentType:"application/json;charset=utf-8",
+              xhrFields:{
+                  withCredentials:true
+              },
+              crossDomain:true,
+              success:function (res) {
+                  console.log(res.code);
+                  console.log(res.map);
+                  if(res.code==200){
+                      alert("添加成功");
+                  }
+
+              }
+          });
+      }
+    </script>
 </head>
 <body>
 <!-- header-section-starts -->
@@ -63,7 +149,7 @@
                     |
                     <li><a href="contact.html">购物车</a></li>
                     |
-                    <li><a href="Order.html">订单</a></li>
+                    <li><a href="order.html">订单</a></li>
                     <div class="clearfix"></div>
                 </ul>
             </div>
@@ -82,13 +168,13 @@
     </div>
 </div>
 
-
 <!-- header-section-ends -->
 <!-- content-section-starts -->
 <div class="Popular-Restaurants-content">
     <div class="Popular-Restaurants-grids">
         <div class="container">
-            <div class="Popular-Restaurants-grid wow fadeInRight" data-wow-delay="0.4s">
+            <ul id="foodItem">
+            <li><div class="Popular-Restaurants-grid wow fadeInLeft" data-wow-delay="0.4s">
                 <div class="col-md-3 restaurent-logo">
                     <img src="images/restaurent-logo1.jpg" class="img-responsive" alt=""/>
                 </div>
@@ -102,12 +188,13 @@
                     </div>
                 </div>
                 <div class="col-md-7 buy">
-                    <span>$45</span>
-                    <input type="button" value="buy">
+                    <label hidden>1</label>
+                    <span>45</span>
+                    <input type="button" value="buy" onclick="insertOrderItem(this)">
                 </div>
                 <div class="clearfix"></div>
-            </div>
-            <div class="Popular-Restaurants-grid wow fadeInLeft" data-wow-delay="0.4s">
+            </div></li>
+            <li><div class="Popular-Restaurants-grid wow fadeInLeft" data-wow-delay="0.4s">
                 <div class="col-md-3 restaurent-logo">
                     <img src="images/restaurent-logo2.jpg" class="img-responsive" alt=""/>
                 </div>
@@ -121,12 +208,12 @@
                     </div>
                 </div>
                 <div class="col-md-7 buy">
-                    <span>$45</span>
+                    <span>45</span>
                     <input type="button" value="buy">
                 </div>
                 <div class="clearfix"></div>
-            </div>
-            <div class="Popular-Restaurants-grid wow fadeInRight" data-wow-delay="0.4s">
+            </div></li>
+            <li><div class="Popular-Restaurants-grid wow fadeInLeft" data-wow-delay="0.4s">
                 <div class="col-md-3 restaurent-logo">
                     <img src="images/restaurent-logo3.jpg" class="img-responsive" alt=""/>
                 </div>
@@ -144,8 +231,8 @@
                     <input type="button" value="buy">
                 </div>
                 <div class="clearfix"></div>
-            </div>
-            <div class="Popular-Restaurants-grid wow fadeInLeft" data-wow-delay="0.4s">
+            </div></li>
+            <li><div class="Popular-Restaurants-grid wow fadeInLeft" data-wow-delay="0.4s">
                 <div class="col-md-3 restaurent-logo">
                     <img src="images/restaurent-logo4.jpg" class="img-responsive" alt=""/>
                 </div>
@@ -163,8 +250,8 @@
                     <input type="button" value="buy">
                 </div>
                 <div class="clearfix"></div>
-            </div>
-            <div class="Popular-Restaurants-grid wow fadeInRight" data-wow-delay="0.4s">
+            </div></li>
+            <li><div class="Popular-Restaurants-grid wow fadeInLeft" data-wow-delay="0.4s">
                 <div class="col-md-3 restaurent-logo">
                     <img src="images/restaurent-logo5.jpg" class="img-responsive" alt=""/>
                 </div>
@@ -182,8 +269,8 @@
                     <input type="button" value="buy">
                 </div>
                 <div class="clearfix"></div>
-            </div>
-            <div class="Popular-Restaurants-grid wow fadeInLeft" data-wow-delay="0.4s">
+            </div></li>
+            <li><div class="Popular-Restaurants-grid wow fadeInLeft" data-wow-delay="0.4s">
                 <div class="col-md-3 restaurent-logo">
                     <img src="images/restaurent-logo6.jpg" class="img-responsive" alt=""/>
                 </div>
@@ -201,7 +288,8 @@
                     <input type="button" value="buy">
                 </div>
                 <div class="clearfix"></div>
-            </div>
+            </div></li>
+            </ul>
         </div>
     </div>
 </div>

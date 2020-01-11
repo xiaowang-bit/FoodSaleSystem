@@ -25,6 +25,7 @@
     <!--Animation-->
     <script src="js/wow.min.js"></script>
     <link href="css/animate.css" rel='stylesheet' type='text/css'/>
+    <link href="css/JiaoYan.css" rel='stylesheet' type='text/css'/>
     <script>
         new WOW().init();
     </script>
@@ -38,6 +39,7 @@
             });
         });
     </script>
+    <script type="text/javascript" src="js/JiaoYan.js"></script>
 </head>
 <body>
 <!-- header-section-starts -->
@@ -102,27 +104,33 @@
                 <div class="clearfix"></div>
             </div>
             <div class="account_grid">
-                <div class="col-md-6 login-left wow fadeInLeft" data-wow-delay="0.4s">
-                    <h3>NEW CUSTOMERS</h3>
-                    <p>By creating an account with our store, you will be able to move through the checkout process
-                        faster, store multiple shipping addresses, view and track your orders in your account and
-                        more.</p>
-                    <a class="acount-btn" href="register.html">Create an Account</a>
+                <div class="col-md-6 login-left wow fadeInLeft" data-wow-delay="0.4s"></p>
+                    <h3>新用户</h3>
+                    <br>
+                    <p>通过在我们的商店中创建一个帐户，您将能够更快地完成结帐过程，
+                    <p>查看您的帐户中的订单等等，希望您能够开心幸福，提前祝您新年快乐！</p>
+                    <a class="acount-btn" href="register.html">创建一个账户</a>
                 </div>
                 <div class="col-md-6 login-right wow fadeInRight" data-wow-delay="0.4s">
-                    <h3>REGISTERED CUSTOMERS</h3>
-                    <p>If you have an account with us, please log in.</p>
+                    <h3>已注册用户</h3>
+                    <br>
+                    <p>如果您已经有一个账户，可以直接登录</p>
                     <form>
                         <div>
-                            <span>UserName<label>*</label></span>
-                            <input type="text" name="username">
+                            <span>用户名<label>*</label></span>
+                            <input type="text" id="uid">
                         </div>
                         <div>
-                            <span>Password<label>*</label></span>
-                            <input type="password" name="pwd">
+                            <span>密码<label>*</label></span>
+                            <input type="password" id="pwd">
                         </div>
-                        <a class="forgot" href="#">Forgot Your Password?</a>
-                        <input type="button" value="Login" onfocus="Login()">
+<!--                        <div>-->
+<!--                            <span>请输入验证码（不区分大小写）<label>*</label></span>-->
+<!--                            <input type="text" class="YanZheng" style="width: 300px">-->
+<!--                            <canvas id="canvas" width="80" height="30" class="picture"></canvas>-->
+<!--                        </div>-->
+                        <a class="forgot" href="#">忘记密码?</a>
+                        <input type="button" value="登录" id="btn">
                     </form>
                 </div>
                 <div class="clearfix"></div>
@@ -314,18 +322,29 @@
 </div>
 <!-- footer-section-ends -->
 <script type="text/javascript">
-    $(document).ready(function () {
-        /*
-        var defaults = {
-              containerID: 'toTop', // fading element id
-            containerHoverID: 'toTopHover', // fading element hover id
-            scrollSpeed: 1200,
-            easingType: 'linear'
-         };
-        */
-
-        $().UItoTop({easingType: 'easeOutQuart'});
-
+    baseUrl="/food";
+    $("#btn").click(function () {
+        var name=$("#uid").val();
+        var password=$("#pwd").val();
+        $.ajax({
+            url:baseUrl+"/ULogin",
+            type: "GET",
+           // dataType: "json",
+            data:{username:name,pwd:password},
+            contentType: "application/json;charset=utf-8",
+            xhrFields: {
+                withCredentials: true
+            },
+            crossDomain: true,
+            success: function (res) {
+                if(res.code == 200){
+                    alert(name+"，欢迎您！");
+                    location.href="index.html"
+                }else{
+                    alert("登陆失败！");
+                }
+            }
+        });
     });
 </script>
 <a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>

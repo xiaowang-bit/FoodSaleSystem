@@ -1,0 +1,32 @@
+.input-val {
+    width: 150px;
+    background: #ffffff;
+    height: 2.8rem;
+    padding: 0 2%;
+    border-radius: 5px;
+    border: none;
+    border: 1px solid rgba(0,0,0,.2);
+    font-size: 1.0625rem;
+}
+#canvas {
+    float: right;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.picture{
+    margin-right: 150px;
+}
+
+.row2{
+    margin-top:25px;
+    margin-bottom: 25px;
+    margin-left: 20px;
+}
+
+.btn-danger{
+    margin-left:20px;
+}
+

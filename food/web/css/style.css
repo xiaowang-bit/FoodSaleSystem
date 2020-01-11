@@ -1530,7 +1530,7 @@ ul.women_pagenation li a:hover{
 .main {
 	background: #F8F8F8;
 }
-.register-top-grid input[type="text"], .register-bottom-grid input[type="text"] {
+.register-top-grid input[type="text"], .register-top-grid input[type="password"] {
 	border: 1px solid #EEE;
 	outline-color:#FF5B36;
 	width: 96%;
