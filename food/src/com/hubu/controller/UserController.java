@@ -23,7 +23,7 @@ import java.util.regex.Pattern;
 @Controller
 public class UserController {
     @Autowired
-    private UserService us;
+    private UserService  us;
 
     @RequestMapping("/test")
     @ResponseBody
@@ -110,7 +110,12 @@ public class UserController {
             if(Rcode.equals(randcode)){
                 if(user!=null){
                     if(pwd.equals(newPwd)){
-                        user.setPassword(pwd);
+                        try {
+                            user.setPassword(Md5Util.encodeByMd5(pwd));
+                        }catch (Exception e){
+                            return Response.response(ResponseEnum.Fail).add("msg", "更新失败！请联系管理员");
+
+                        }
                         Response response = us.UpdateMyPwd(user);
                         return response;
                     }else {
@@ -141,6 +146,7 @@ public class UserController {
                 String randcode = String.format("%04d", new Random().nextInt(9999));
                 MailUtils.sendMail("1632823097@qq.com",":欢迎您注册《美食网》，你的注册码是："+randcode+"</a>","美食网邮箱验证");
                 request.getSession().setAttribute("randcode",randcode);
+                return Response.response(ResponseEnum.Success).add("msg","发送成功");
             }else {
                 return Response.response(ResponseEnum.Fail).add("msg", "邮箱用户不存在");
             }
