@@ -257,11 +257,11 @@
                 <ul>
                     <li><a href="index.html">首页</a></li>
                     |
-                    <li><a href="popular-restaurents.html">点餐</a></li>
+                    <li><a href="popular-Restaurents.html">点餐</a></li>
                     |
                     <li><a href="contact.html">购物车</a></li>
                     |
-                    <li class="active"><a href="Order.html">订单</a></li>
+                    <li class="active"><a href="order.html">订单</a></li>
                     <div class="clearfix"></div>
                 </ul>
             </div>
@@ -317,9 +317,10 @@
                             <div class="col-md-12">
                                 <table class="table table-hover" id="tab" style="text-align: center;" border="1px">
                                     <tr class="rows">
-                                        <th colspan="2">美食信息</th>
+                                        <th>订单号</th>
+                                        <th colspan="2">商品信息</th>
+                                        <th>单价(元)</th>
                                         <th>数量</th>
-                                        <th>单价（元）</th>
                                         <th>状态</th>
                                         <th>操作</th>
                                     </tr>
@@ -560,7 +561,7 @@
                             $(this).parent().siblings('.st').html(newtext);
                             window.location.reload();
                         } else {
-                            alert("失败！");
+                            alert("付款失败！");
                         }
                     }
                 });
@@ -590,7 +591,7 @@
                             $(this).parent().siblings('.st').html(newtext);
                             window.location.reload();
                         } else {
-                            alert("失败！");
+                            alert("退款失败！");
                         }
                     }
                 });
@@ -599,7 +600,7 @@
 
         //查看详情
         $(".c-btn").bind("click", function () {
-            window.location.href = "book.html"
+            window.location.href = "index.html"
         })
     }
 
@@ -635,7 +636,7 @@
                 });
             } else {
                 //跳转路径
-                window.location.href = "orderInfo.html";
+                window.location.href = "order.html";
             }
         });
     });
@@ -656,7 +657,5 @@
     });
 </script>
 <a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
-
-
 </body>
 </html>

@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <title>contact</title>
     <link href="css/bootstrap.css" rel='stylesheet' type='text/css'/>
-    <link href="css/JiaoYan.css" rel="stylesheet" type="text/css">
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="js/jquery.min.js"></script>
     <!-- Custom Theme files -->
@@ -49,7 +48,7 @@
                 <a href="index.html"><img style="width: 110px" src="images/logo.png" class="img-responsive" alt=""/></a>
             </div>
             <div class="queries">
-                <p>Questions? Call us <span>8888-8888 </span><label>(9AM to 11PM)</label></p>
+                <p>Questions? Call us <span>8888-8888 </span><label>(9AM to 11PM)</label></p>s
             </div>
             <div class="clearfix"></div>
         </div>
@@ -59,11 +58,11 @@
             <div class="top-menu">
                 <ul>
                     <li class="active"><a href="index.html">首页</a></li>
-
+                    |
                     <li><a href="popular-restaurents.html">点餐</a></li>
-
+                    |
                     <li><a href="#contact" class="scroll">购物车</a></li>
-
+                    |
                     <li><a href="Order.html">订单</a></li>
                     <div class="clearfix"></div>
                 </ul>
@@ -71,9 +70,9 @@
             <div class="login-section">
                 <ul>
                     <li><a href="login.html">登录</a></li>
-
+                    |
                     <li><a href="register.html">注册</a></li>
-
+                    |
                     <li><a href="#">帮助</a></li>
                     <div class="clearfix"></div>
                 </ul>
@@ -82,372 +81,93 @@
         </div>
     </div>
     <!-- header-section-ends -->
-    <div class="ordering-form">
-        <div class="container">
-            <div class="order-form-head text-center wow bounceInLeft" data-wow-delay="0.4s">
-                <h3>My Shopping Cart</h3>
-                <p>Ordering Food Was Never So Simple !</p>
+    <div class="contact-section-page">
+        <div class="contact-head">
+            <div class="container">
+                <h3>Contact</h3>
+                <p>Home/Contact</p>
             </div>
-        </div><!--购物车主体部分-->
-        <div class="container">
-            <!--提交订单按钮-->
-            <div class="row">
-                <div class="row2">
-                    <input type="button" class="btn btn-warning" id="submit" value="提交订单"/>
-                    <input type="button" class="btn btn-danger" id="del" value="清空购物车"/>
-                </div>
-            </div>
-
-            <!--表格-->
-            <div class="row">
-                <div class="col-md-12">
-                    <table class="table table-hover" border="1px" style="text-align: center">
-                        <tr class="rows">
-                            <th>全选<input type="checkbox" id="selectall" style="margin-left:5px"></th>
-                            <th colspan="2">商品信息</th>
-                            <th>单价（元）</th>
-                            <th>数量</th>
-                            <th>总金额（元）</th>
-                            <th>操作</th>
-                        </tr>
-                        <tbody id="goods">
-
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-
-            <!--分页 -->
-            <div class="row">
-                <!--分页文字信息-->
-                <div class="col-md-6">
-                    共<span id="totalPage" class="pageNum">12</span>页,<span id="totalCount" class="totalNum">100</span>条记录
-                </div>
-
-                <!--分页条信息-->
-                <div>
-                    <nav aria-label="Page navigation">
-                        <ul class="pagination">
-                            <li><a href="#">首页</a></li>
-                            <li>
-                                <a href="#" aria-label="Previous">
-                                    <span aria-hidden="true">&laquo;</span>
-                                </a>
-                            </li>
-                            <li><a href="#">1</a></li>
-                            <li><a href="#">2</a></li>
-                            <li><a href="#">3</a></li>
-                            <li><a href="#">4</a></li>
-                            <li><a href="#">5</a></li>
-                            <li>
-                                <a href="#" aria-label="Next">
-                                    <span aria-hidden="true">&raquo;</span>
-                                </a>
-                            </li>
-                            <li><a href="#">末页</a></li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-
         </div>
-
-
-    </div>
-
-    <div class="special-offers-section">
-        <div class="container">
-            <div class="special-offers-section-head text-center dotted-line">
-                <h4>Special Offers</h4>
-            </div>
-            <div class="special-offers-section-grids">
-                <div class="m_3"><span class="middle-dotted-line"> </span></div>
-                <div class="container">
-                    <ul id="flexiselDemo3">
-                        <li>
-                            <div class="offer">
-                                <div class="offer-image">
-                                    <img src="images/p1.jpg" class="img-responsive" alt=""/>
-                                </div>
-                                <div class="offer-text">
-                                    <h4>Olister Combo pack lorem</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. </p>
-                                    <input type="button" value="Grab It">
-                                    <span></span>
-                                </div>
-                                <div class="clearfix"></div>
+        <div class="contact_top">
+            <div class="container">
+                <div class="col-md-6 contact_left wow fadeInRight" data-wow-delay="0.4s">
+                    <h4>Contact Form</h4>
+                    <p>Lorem ipsum dolor sit amet, adipiscing elit. Donec tincidunt dolor et tristique bibendum. Aenean
+                        sollicitudin vitae dolor ut posuere.</p>
+                    <form>
+                        <div class="form_details">
+                            <input type="text" class="text" value="Name" onfocus="this.value = '';"
+                                   onblur="if (this.value == '') {this.value = 'Name';}">
+                            <input type="text" class="text" value="Email Address" onfocus="this.value = '';"
+                                   onblur="if (this.value == '') {this.value = 'Email Address';}">
+                            <input type="text" class="text" value="Subject" onfocus="this.value = '';"
+                                   onblur="if (this.value == '') {this.value = 'Subject';}">
+                            <textarea value="Message" onfocus="this.value = '';"
+                                      onblur="if (this.value == '') {this.value = 'Message';}">Message</textarea>
+                            <div class="clearfix"></div>
+                            <div class="sub-button wow swing animated" data-wow-delay="0.4s">
+                                <input name="submit" type="submit" value="Send message">
                             </div>
-                        </li>
-                        <li>
-                            <div class="offer">
-                                <div class="offer-image">
-                                    <img src="images/p2.jpg" class="img-responsive" alt=""/>
-                                </div>
-                                <div class="offer-text">
-                                    <h4>Chicken Jumbo pack lorem</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. </p>
-                                    <input type="button" value="Grab It">
-                                    <span></span>
-                                </div>
-                                <div class="clearfix"></div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="offer">
-                                <div class="offer-image">
-                                    <img src="images/p3.jpg" class="img-responsive" alt=""/>
-                                </div>
-                                <div class="offer-text">
-                                    <h4>Crab Combo pack lorem</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. </p>
-                                    <input type="button" value="Grab It">
-                                    <span></span>
-                                </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-6 company-right wow fadeInLeft" data-wow-delay="0.4s">
+                    <div class="contact-map">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1578265.0941403757!2d-98.9828708842255!3d39.41170802696131!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54eab584e432360b%3A0x1c3bb99243deb742!2sUnited+States!5e0!3m2!1sen!2sin!4v1407515822047"></iframe>
+                    </div>
 
-                                <div class="clearfix"></div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="offer">
-                                <div class="offer-image">
-                                    <img src="images/p2.jpg" class="img-responsive" alt=""/>
-                                </div>
-                                <div class="offer-text">
-                                    <h4>Chicken Jumbo pack lorem</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. </p>
-                                    <input type="button" value="Grab It">
-                                    <span></span>
-                                </div>
+                    <div class="company-right">
+                        <div class="company_ad">
+                            <h3>Contact Info</h3>
+                            <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit velit justo.</span>
+                            <address>
+                                <p>email:<a href="mail-to: info@example.com">info@display.com</a></p>
+                                <p>phone: +255 55 55 777</p>
+                                <p>28-7-169, 2nd Ave South</p>
+                                <p>Saskabush, SK S7M 1T6</p>
 
-                                <div class="clearfix"></div>
-                            </div>
-                        </li>
-                    </ul>
-                    <script type="text/javascript">
-                        $(window).load(function () {
+                            </address>
+                        </div>
+                    </div>
+                    <div class="follow-us">
+                        <h3>follow us on</h3>
+                        <a href="#"><i class="facebook"></i></a>
+                        <a href="#"><i class="twitter"></i></a>
+                        <a href="#"><i class="google-pluse"></i></a>
+                    </div>
 
-                            $("#flexiselDemo3").flexisel({
-                                visibleItems: 3,
-                                animationSpeed: 1000,
-                                autoPlay: true,
-                                autoPlaySpeed: 3000,
-                                pauseOnHover: true,
-                                enableResponsiveBreakpoints: true,
-                                responsiveBreakpoints: {
-                                    portrait: {
-                                        changePoint: 480,
-                                        visibleItems: 1
-                                    },
-                                    landscape: {
-                                        changePoint: 640,
-                                        visibleItems: 2
-                                    },
-                                    tablet: {
-                                        changePoint: 768,
-                                        visibleItems: 3
-                                    }
-                                }
-                            });
 
-                        });
-                    </script>
-                    <script type="text/javascript" src="js/jquery.flexisel.js"></script>
                 </div>
             </div>
         </div>
-    </div>
 
-</div>
+    </div>
+    <!-- footer-section-starts -->
+    <div class="footer">
+        <div class="container">
+            <p class="wow fadeInLeft" data-wow-delay="0.4s">Copyright &copy; 2020.Loving HUBU All rights reserved. More
+                imformation <a href="http://www.hubu.edu.cn/" target="_blank" title="Loving HUBU">Loving HUBU</a> - please click <a
+                        href="http://www.hubu.edu.cn/" title="Loving HUBU" target="_blank">HUBU JAVA</a></p>
+        </div>
+    </div>
+    <!-- footer-section-ends -->
+    <script type="text/javascript">
+        $(document).ready(function () {
+            /*
+            var defaults = {
+                  containerID: 'toTop', // fading element id
+                containerHoverID: 'toTopHover', // fading element hover id
+                scrollSpeed: 1200,
+                easingType: 'linear'
+             };
+            */
+
+            $().UItoTop({easingType: 'easeOutQuart'});
+
+        });
+    </script>
+    <a href="#" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+
+
 </body>
-
-<script type="text/javascript">
-    baseUrl = "/food";
-    //显示购物车列表数据
-    $.ajax({
-        url:baseUrl + "/findfood",
-        type: "GET",
-        dataType: "json",
-        contentType: "application/json;charset=utf-8",
-        xhrFields: {
-            withCredentials: true
-        },
-        crossDomain: true,
-        success: function (data) {
-            // data1=JSON.stringify(data);
-            // alert("成功啦")
-            data1=data.data;
-            console.log(data1);
-            showData(data1);
-        }
-    });
-
-    //显示购物车列表信息
-    function showData(data) {
-        var str="";
-        var s=0;
-        for (var i = 0; i <data.length; i++) {
-            str='<tr><td>' +'<input type="checkbox" name="cb" class="j-checkbox" />'
-                +'</td><td colspan="2" class="item">' +data[i].name
-                +'</td><td class="eachPrice">' +data[i].price.toFixed(2)
-                +'</td><td>' +'<input type="button" value="-" class="sub"/>'
-                +'<input data_value="1" value="1" type="text" class="quantity" name="quantity"/>'
-                +'<input type="button" value="+" class="add" />'
-                +'</td><td class="i-price" name="price">'+data[i].price.toFixed(2)
-                +'</td><td>'+'<button class="btn btn-danger btn-sm">删除</button>'
-                +'</td></tr>';
-            //console.log(str);
-            $("#goods").append(str);
-        }
-        str1='<tr><td colspan="4">'+"选中商品"+'</td><td colspan="3" id="total-price">'+"价格"+'</td></tr>';
-        $("#goods").append(str1);
-        $("#total-price").html("0.00");
-        setTotal();
-
-        //数量加一
-        $(".add").click(function (obj) {
-            var n = $(this).siblings(".quantity");
-            n.val(parseInt(n.val()) + 1);
-            //console.log(n);
-            num = n.val();
-            //console.log(num);
-            var p = $(this).parent().siblings(".eachPrice").text();
-            //console.log(p);
-            s = p * num;
-            $(this).parent().siblings(".i-price").text(s.toFixed(2));
-            setTotal();
-        });
-
-        //数量减一
-        $(".sub").click(function () {
-            var n=$(this).parent().find('input[class*=quantity]');
-            if(parseInt(n.val())<=1){
-                n.val(1);
-            }else{
-                n.val(parseInt(n.val())-1);
-            }
-            num=n.val();
-            var p = $(this).parent().siblings(".eachPrice").text();
-            s=p*num;
-            $(this).parent().siblings(".i-price").html(s.toFixed(2));
-            setTotal();
-        });
-
-        //删除一行
-        $("button").click(function () {
-            var s=$("#tishi");
-            var a=confirm("确定删除吗？");
-            var t=$(this).parent().parent();
-            console.log(t);
-            var id=$(this).parent().siblings(".item").text();
-            console.log(id);
-            if(a==true) {
-                $.ajax({
-                    url: baseUrl + "/orderItem/delete?id="+id,
-                    type: "GET",
-                    dataType: "json",
-                    contentType: "application/json;charset=utf-8",
-                    xhrFields: {
-                        withCredentials: true
-                    },
-                    crossDomain: true,
-                    success: function (res) {
-                        if (res.code == 0) {
-                            // alert("删除成功！");
-                            alert("删除成功！");
-                            window.location.reload();
-                        }else{
-                            alert("删除失败！");
-                        }
-                    }
-                });
-            }
-        });
-
-        //选中行提交为订单
-        $("input:checkbox").click(function () {
-            if ($("input:checkbox:checked")) {
-                var orderInfoNum = $(this).parent().parent().find('input[class*=quantity]').val();
-                //console.log(orderInfoNum);
-                var orderInfoPrice=$(this).parent().siblings(".i-price").text();
-                //console.log(orderInfoPrice);
-                var orderInfoStatus=0;
-                //var orderItemId=orderInfoId;
-                var orderInfoId=$(this).parent().siblings(".item").text();
-                //console.log(orderInfoId);
-                $("#submit").click(function () {
-                    var a=confirm("确定提交该订单吗？");
-                    if(a==true){
-                        $.ajax({
-                            url:baseUrl + "/orderInfo/insert?orderInfoId="+orderInfoId+"&orderInfoNum="+orderInfoNum+"&orderInfoPrice="+orderInfoPrice
-                                +"&orderInfoStatus="+orderInfoStatus+"&userId=1",
-                            type: "POST",
-                            dataType: "json",
-                            contentType: "application/json;charset=utf-8",
-                            xhrFields: {
-                                withCredentials: true
-                            },
-                            crossDomain: true,
-                            success: function (res) {
-                                // data2=data.data;
-                                // console.log(data2);
-                                if(res.code==0){
-                                    alert("选中项成功生成订单！");
-                                }else{
-                                    alert("删除失败！");
-                                }
-                            }
-                        });
-                        $.ajax({
-                            url: baseUrl + "/orderItem/delete?id="+orderInfoId,
-                            type: "GET",
-                            dataType: "json",
-                            contentType: "application/json;charset=utf-8",
-                            xhrFields: {
-                                withCredentials: true
-                            },
-                            crossDomain: true,
-                            success: function (res) {
-                                if (res.code == 0) {
-                                    window.location.reload();
-                                }else{
-                                    alert("删除失败！");
-                                }
-                            }
-                        });
-                    }
-                })
-            }
-        });
-    }
-
-    function setTotal(){
-        //选中商品价格计算
-        $("input:checkbox").click(function () {
-            var sum=0;
-            $("input:checkbox:checked").each(function () {
-                var trs=$(this).parent().siblings(".i-price").text();
-                sum+=(parseFloat(trs).toFixed(2))-0;
-            });
-            $("#total-price").html(sum.toFixed(2));
-        });
-    }
-
-    $(function () {
-        //全选全不选
-        var i = 1;
-        $("#selectall").click(function () {
-            if (i % 2 == 1) {
-                $("input[name='cb']").prop('checked', true);
-                i++;
-            } else {
-                $("input[name='cb']").prop('checked', false);
-                i--;
-            }
-        });
-    });
-
-
-</script>
-
-
 </html>

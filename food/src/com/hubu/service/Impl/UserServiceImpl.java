@@ -1,9 +1,7 @@
 package com.hubu.service.Impl;
 
-import com.alibaba.druid.sql.visitor.functions.If;
 import com.hubu.Enum.ResponseEnum;
 import com.hubu.mapper.UserMapper;
-import com.hubu.model.ResultMsg;
 import com.hubu.model.User;
 import com.hubu.service.UserService;
 import com.hubu.utils.Response;
@@ -60,8 +58,29 @@ public class UserServiceImpl implements UserService {
         }
     }
 
+    @Override
+    public Response UpdateMyPwd(User user) {
+//        User user2=uq.queryUserByEmail(email);
+        int row = uq.updatePwd(user);
+        if (row>=0){
+            return Response.response(ResponseEnum.Success).add("msg","修改成功");
+        }else {
+            return Response.response(ResponseEnum.Fail).add("msg","修改失败");
+        }
+
+    }
+
+    @Override
+    public Response QueryUserByEmail(String email) {
+        User user=uq.queryUserByEmail(email);
+        if (user!=null){
+            return Response.response(ResponseEnum.Success).add("msg","查询成功");
+        }else {
+            return Response.response(ResponseEnum.Fail).add("msg","修改失败");
+        }
+    }
+
     public List<User> queryUser(){
         return uq.queryOrder();
     }
-
 }
