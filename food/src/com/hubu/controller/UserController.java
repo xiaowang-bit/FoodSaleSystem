@@ -14,11 +14,9 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import javax.mail.Flags;
 import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
 import java.util.List;
-import java.util.Scanner;
+import java.util.Random;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -96,11 +94,57 @@ public class UserController {
                     }
                 }
             }
-            resultMsg = Response.response(ResponseEnum.Fail).add("msg", "注册失败");
+            resultMsg = Response.response(ResponseEnum.Fail).add("msg", "注册失败！");
             return resultMsg;
         } else {
-            resultMsg = Response.response(ResponseEnum.Fail).add("msg", "注册失败");
+            resultMsg = Response.response(ResponseEnum.Fail).add("msg", "注册失败！");
             return resultMsg;
         }
     }
+    @RequestMapping("/UpdatePwd")
+    @ResponseBody
+    public Response UpdatePwd(String pwd,String newPwd,String Rcode,HttpServletRequest request) {
+        User user = (User) request.getSession().getAttribute("user");
+        String randcode = (String) request.getSession().getAttribute("randcode");
+        if(Rcode!=null){
+            if(Rcode.equals(randcode)){
+                if(user!=null){
+                    if(pwd.equals(newPwd)){
+                        user.setPassword(pwd);
+                        Response response = us.UpdateMyPwd(user);
+                        return response;
+                    }else {
+                        return Response.response(ResponseEnum.Fail).add("msg", "更新失败！两次密码不相等");
+                    }
+                }else {
+                    return Response.response(ResponseEnum.Fail).add("msg", "你的输入的验证码不对");
+                }
+            }else {
+                return Response.response(ResponseEnum.Fail).add("msg", "更新失败！用户不存在");
+            }
+        }else {
+            return Response.response(ResponseEnum.Fail).add("msg", "请输入邮箱验证码");
+        }
+    }
+
+    @RequestMapping("/sendEmail")
+    @ResponseBody
+    public Response sendEmail(String email,HttpServletRequest request) {
+        Pattern p = Pattern.compile("^\\w+[@]\\w+[.]\\w+$");
+        Matcher m = p.matcher(email);
+        boolean flg = m.matches();
+        if(flg){
+            return Response.response(ResponseEnum.Fail).add("msg", "邮箱输入错误");
+        }else {
+            Response response = us.QueryUserByEmail(email);
+            if(response.getCode()==200){
+                String randcode = String.format("%04d", new Random().nextInt(9999));
+                MailUtils.sendMail("1632823097@qq.com",":欢迎您注册《美食网》，你的注册码是："+randcode+"</a>","美食网邮箱验证");
+                request.getSession().setAttribute("randcode",randcode);
+            }else {
+                return Response.response(ResponseEnum.Fail).add("msg", "邮箱用户不存在");
+            }
+        }
+    }
+
 }

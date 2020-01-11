@@ -12,4 +12,6 @@ public interface UserService {
     public Response Login(String name, String pwd);
     public Response Register(User user);
     public Response UpdateMyInfo(User user);
+    public Response UpdateMyPwd(User user);
+    public Response QueryUserByEmail(String email);
 }
